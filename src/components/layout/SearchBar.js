@@ -6,9 +6,9 @@ import { searchLogs } from "../../actions/logActions";
 const SearchBar = ({ searchLogs }) => {
     const text = useRef("");
 
-    const onChange = (event) => {
-        searchLogs(text.current.value);
-    };
+    // const onChange = (event) => {
+    //     searchLogs(text.current.value);
+    // };
     return (
         <nav style={{ marginBottom: "30px" }} className="blue">
             <div className="nav-wrapper">
@@ -17,9 +17,8 @@ const SearchBar = ({ searchLogs }) => {
                         <input
                             id="search"
                             type="search"
-                            placeholder="Search Logs..."
                             ref={text}
-                            onChange={onChange}
+                            // onChange={onChange}
                         />
                         <label className="label-icon" htmlFor="search">
                             <i className="material-icons">search</i>
