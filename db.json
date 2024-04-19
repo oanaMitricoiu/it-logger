@@ -1,49 +1,54 @@
 {
-    "logs": [
-        {
-            "message": "Changed network card in server 007",
-            "attention": false,
-            "tech": "Sam Smith",
-            "date": "2019-05-31T15:46:10.179Z",
-            "id": 1
-        },
-        {
-            "id": 2,
-            "message": "Fixed hard drive on workstation 002",
-            "attention": false,
-            "tech": "John Doe",
-            "date": "2019-05-31T16:18:04.245Z"
-        },
-        {
-            "message": "1122 wireless down",
-            "attention": true,
-            "tech": "Sara Wilson",
-            "date": "2019-05-31T15:46:48.690Z",
-            "id": 3
-        },
-        {
-            "id": 4,
-            "message": "Workstation 026 is up and running",
-            "attention": false,
-            "tech": "Sara Wilson",
-            "date": "2019-05-31T19:57:35.544Z"
-        }
-    ],
-    "techs": [
-        {
-            "id": 1,
-            "firstName": "John",
-            "lastName": "Doe"
-        },
-        {
-            "id": 2,
-            "firstName": "Sam",
-            "lastName": "Smith"
-        },
-        {
-            "id": 3,
-            "firstName": "Sara",
-            "lastName": "Wilson"
-        }
-    ]
+  "logs": [
+    {
+      "id": "defc",
+      "message": "change network card in server 007",
+      "attention": false,
+      "tech": "SamSmith",
+      "date": "2024-04-19T19:22:52.402Z"
+    },
+    {
+      "id": "4d39",
+      "message": "Fixed hardrive on  workstation 002",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2024-04-19T08:58:29.894Z"
+    },
+    {
+      "id": "eb1e",
+      "message": "1122 wireless down",
+      "attention": true,
+      "tech": "Sara Wilson",
+      "date": "2024-04-19T07:31:27.926Z"
+    },
+    {
+      "id": "a6ba",
+      "message": "bla bla bla ",
+      "attention": false,
+      "tech": "Sara Wilson",
+      "date": "2024-04-19T08:57:38.439Z"
+    }
+  ],
+  "techs": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": "2",
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": "3",
+      "firstName": "Sara",
+      "lastName": "Wilson"
+    },
+    {
+      "id": "4b7c",
+      "firstName": "oana",
+      "lastName": "visan"
+    }
+  ]
 }
